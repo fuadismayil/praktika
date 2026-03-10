@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\10mart\bin\Debug\net10.0\10mart.exe
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\10mart\bin\Debug\net10.0\10mart.deps.json
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\10mart\bin\Debug\net10.0\10mart.runtimeconfig.json
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\10mart\bin\Debug\net10.0\10mart.dll
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\10mart\bin\Debug\net10.0\10mart.pdb
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\10mart\obj\Debug\net10.0\10mart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\10mart\obj\Debug\net10.0\10mart.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\10mart\obj\Debug\net10.0\10mart.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\10mart\obj\Debug\net10.0\10mart.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\10mart\obj\Debug\net10.0\10mart.sourcelink.json
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\10mart\obj\Debug\net10.0\10mart.dll
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\10mart\obj\Debug\net10.0\refint\10mart.dll
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\10mart\obj\Debug\net10.0\10mart.pdb
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\10mart\obj\Debug\net10.0\10mart.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\10mart\obj\Debug\net10.0\ref\10mart.dll

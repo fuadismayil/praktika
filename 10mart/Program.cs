@@ -20,28 +20,28 @@
 //Console.WriteLine($"{soz} - {soz.Length} herf");
 
 //28
-string[] sual1 = ["ALMA", "Bu bir meyvedir."];
-string[] sual2 = ["KITAB", "Bu tehsile aid bir esyadir."];
-string[] sual3 = ["MONITOR", "Bu komputerin esas hisselerinden biridir."];
+string[] sual1 = ["ALMA", "Bu bir meyvedir. 3 cehd sansin var!"];
+string[] sual2 = ["KITAB", "Bu tehsile aid bir esyadir. 3 cehd sansin var!"];
+string[] sual3 = ["MONITOR", "Bu komputerin esas hisselerinden biridir. 3 cehd sansin var!"];
 string correct = "Duz tapdiniz!!!";
-string notCorrect="Yanlis!!! qalan cehd sansiniz: ";
+string notCorrect = "Yanlis!!! qalan cehd sansiniz: ";
+string lose = "Meqlub oldunuz, bextinizi bir daha sinayin!";
 bool isTrue = false;
-
+Random rand = new Random();
 while (true)
 {
-    Random rand = new Random();
     int randomNumber = rand.Next(1, 4);
     switch (randomNumber)
     {
         case 1:
-            Console.WriteLine("Bu bir meyvedir. 3 cehd sansin var!");
+            Console.WriteLine(sual1[1]);
             for (int i = 0; i < 3; i++)
             {
-                if (Console.ReadLine().ToUpper() == sual1[1])
+                if (Console.ReadLine().ToUpper() == sual1[0])
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine(correct);
-                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.ResetColor();
                     isTrue = true;
                     break;
                 }
@@ -49,39 +49,19 @@ while (true)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine(notCorrect + (2 - i));
-                    Console.ForegroundColor = ConsoleColor.White;
-                    isTrue = false;
+                    Console.ResetColor();
                 }
-            }
-            if (!isTrue)
-            {
-                Console.Clear();
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("Meqlub odunuz, bexdinizi bir daha sinayin!");
-                Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine("Yeniden oynamaq isteyirsiz? y/n");
-                if (Console.ReadLine() == "y")
-                {
-                    Console.Clear();
-                }
-                else
-                {
-                    Console.WriteLine("saqolun");
-                    Console.ForegroundColor = ConsoleColor.Black;
-                    Environment.Exit(0);
-                }
-                break;
             }
             break;
         case 2:
-            Console.WriteLine("Bu tehsile aid bir esyadir. 3 cehd sansin var!");
+            Console.WriteLine(sual2[1]);
             for (int i = 0; i < 3; i++)
             {
-                if (Console.ReadLine().ToUpper() == "KITAB")
+                if (Console.ReadLine().ToUpper() == sual2[0])
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine(correct);
-                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.ResetColor();
                     isTrue = true;
                     break;
                 }
@@ -89,40 +69,19 @@ while (true)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine(notCorrect + (2 - i));
-                    Console.ForegroundColor = ConsoleColor.White;
-                    isTrue = false;
-
+                    Console.ResetColor();
                 }
-            }
-            if (!isTrue)
-            {
-                Console.Clear();
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("Meqlub odunuz, bexdinizi bir daha sinayin!");
-                Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine("Yeniden oynamaq isteyirsiz? y/n");
-                if (Console.ReadLine() == "y")
-                {
-                    Console.Clear();
-                }
-                else
-                {
-                    Console.WriteLine("saqolun");
-                    Console.ForegroundColor = ConsoleColor.Black;
-                    Environment.Exit(0);
-                }
-                break;
             }
             break;
         case 3:
-            Console.WriteLine("Bu komputerin esas hisselerinden biridir. 3 cehd sansin var!");
+            Console.WriteLine(sual3[1]);
             for (int i = 0; i < 3; i++)
             {
-                if (Console.ReadLine().ToUpper() == "MONITOR")
+                if (Console.ReadLine().ToUpper() == sual3[0])
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine(correct);
-                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.ResetColor();
                     isTrue = true;
                     break;
                 }
@@ -130,35 +89,25 @@ while (true)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine(notCorrect + (2 - i));
-                    Console.ForegroundColor = ConsoleColor.White;
-                    isTrue = false;
-
+                    Console.ResetColor();
                 }
-            }
-            if (!isTrue)
-            {
-                Console.Clear();
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("Meqlub odunuz, bexdinizi bir daha sinayin!");
-                Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine("Yeniden oynamaq isteyirsiz? y/n");
-                if (Console.ReadLine() == "y")
-                {
-                    Console.Clear();
-                }
-                else
-                {
-                    Console.WriteLine("saqolun");
-                    Console.ForegroundColor = ConsoleColor.Black;
-                    Environment.Exit(0);
-                }
-
-                break;
             }
             break;
     }
-
-    
+    if (!isTrue)
+    {
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine(lose);
+        Console.ResetColor();
+    }
+    Console.WriteLine("Yeniden oynamaq isteyirsiz? y/n");
+    if (Console.ReadLine() != "y")
+    {
+        Console.WriteLine("Sag olun!");
+        Console.ForegroundColor = ConsoleColor.Black;
+        break;
+    }
+    Console.Clear();
 }
 
 
