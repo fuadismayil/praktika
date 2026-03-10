@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\Fuad Ismayil\\praktika\\10mart\\10mart.csproj": {}
+    "C:\\Users\\Fuad\\Desktop\\praktika\\10mart\\10mart.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\Fuad Ismayil\\praktika\\10mart\\10mart.csproj": {
+    "C:\\Users\\Fuad\\Desktop\\praktika\\10mart\\10mart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Fuad Ismayil\\praktika\\10mart\\10mart.csproj",
+        "projectUniqueName": "C:\\Users\\Fuad\\Desktop\\praktika\\10mart\\10mart.csproj",
         "projectName": "10mart",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\Fuad Ismayil\\praktika\\10mart\\10mart.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\Fuad Ismayil\\praktika\\10mart\\obj\\",
+        "projectPath": "C:\\Users\\Fuad\\Desktop\\praktika\\10mart\\10mart.csproj",
+        "packagesPath": "C:\\Users\\Fuad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fuad\\Desktop\\praktika\\10mart\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fuad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
