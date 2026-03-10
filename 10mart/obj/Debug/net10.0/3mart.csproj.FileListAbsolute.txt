@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\3mart\bin\Debug\net10.0\3mart.exe
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\3mart\bin\Debug\net10.0\3mart.deps.json
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\3mart\bin\Debug\net10.0\3mart.runtimeconfig.json
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\3mart\bin\Debug\net10.0\3mart.dll
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\3mart\bin\Debug\net10.0\3mart.pdb
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\3mart\obj\Debug\net10.0\3mart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\3mart\obj\Debug\net10.0\3mart.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\3mart\obj\Debug\net10.0\3mart.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\3mart\obj\Debug\net10.0\3mart.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\3mart\obj\Debug\net10.0\3mart.dll
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\3mart\obj\Debug\net10.0\refint\3mart.dll
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\3mart\obj\Debug\net10.0\3mart.pdb
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\3mart\obj\Debug\net10.0\3mart.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\3mart\obj\Debug\net10.0\ref\3mart.dll

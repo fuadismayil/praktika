@@ -1,0 +1,29 @@
+C:\Users\Fuad\Desktop\ATM\bin\Debug\net10.0\ATM.exe
+C:\Users\Fuad\Desktop\ATM\bin\Debug\net10.0\ATM.deps.json
+C:\Users\Fuad\Desktop\ATM\bin\Debug\net10.0\ATM.runtimeconfig.json
+C:\Users\Fuad\Desktop\ATM\bin\Debug\net10.0\ATM.dll
+C:\Users\Fuad\Desktop\ATM\bin\Debug\net10.0\ATM.pdb
+C:\Users\Fuad\Desktop\ATM\obj\Debug\net10.0\ATM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fuad\Desktop\ATM\obj\Debug\net10.0\ATM.AssemblyInfoInputs.cache
+C:\Users\Fuad\Desktop\ATM\obj\Debug\net10.0\ATM.AssemblyInfo.cs
+C:\Users\Fuad\Desktop\ATM\obj\Debug\net10.0\ATM.csproj.CoreCompileInputs.cache
+C:\Users\Fuad\Desktop\ATM\obj\Debug\net10.0\ATM.dll
+C:\Users\Fuad\Desktop\ATM\obj\Debug\net10.0\refint\ATM.dll
+C:\Users\Fuad\Desktop\ATM\obj\Debug\net10.0\ATM.pdb
+C:\Users\Fuad\Desktop\ATM\obj\Debug\net10.0\ATM.genruntimeconfig.cache
+C:\Users\Fuad\Desktop\ATM\obj\Debug\net10.0\ref\ATM.dll
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\ATM\bin\Debug\net10.0\ATM.exe
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\ATM\bin\Debug\net10.0\ATM.deps.json
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\ATM\bin\Debug\net10.0\ATM.runtimeconfig.json
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\ATM\bin\Debug\net10.0\ATM.dll
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\ATM\bin\Debug\net10.0\ATM.pdb
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\ATM\obj\Debug\net10.0\ATM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\ATM\obj\Debug\net10.0\ATM.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\ATM\obj\Debug\net10.0\ATM.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\ATM\obj\Debug\net10.0\ATM.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\ATM\obj\Debug\net10.0\ATM.sourcelink.json
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\ATM\obj\Debug\net10.0\ATM.dll
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\ATM\obj\Debug\net10.0\refint\ATM.dll
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\ATM\obj\Debug\net10.0\ATM.pdb
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\ATM\obj\Debug\net10.0\ATM.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\ATM\obj\Debug\net10.0\ref\ATM.dll

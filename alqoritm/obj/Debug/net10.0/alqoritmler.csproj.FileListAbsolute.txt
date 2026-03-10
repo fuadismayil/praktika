@@ -1,0 +1,29 @@
+C:\Users\Admin\Desktop\alqoritmler\bin\Debug\net10.0\alqoritmler.exe
+C:\Users\Admin\Desktop\alqoritmler\bin\Debug\net10.0\alqoritmler.deps.json
+C:\Users\Admin\Desktop\alqoritmler\bin\Debug\net10.0\alqoritmler.runtimeconfig.json
+C:\Users\Admin\Desktop\alqoritmler\bin\Debug\net10.0\alqoritmler.dll
+C:\Users\Admin\Desktop\alqoritmler\bin\Debug\net10.0\alqoritmler.pdb
+C:\Users\Admin\Desktop\alqoritmler\obj\Debug\net10.0\alqoritmler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\alqoritmler\obj\Debug\net10.0\alqoritmler.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\alqoritmler\obj\Debug\net10.0\alqoritmler.AssemblyInfo.cs
+C:\Users\Admin\Desktop\alqoritmler\obj\Debug\net10.0\alqoritmler.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\alqoritmler\obj\Debug\net10.0\alqoritmler.dll
+C:\Users\Admin\Desktop\alqoritmler\obj\Debug\net10.0\refint\alqoritmler.dll
+C:\Users\Admin\Desktop\alqoritmler\obj\Debug\net10.0\alqoritmler.pdb
+C:\Users\Admin\Desktop\alqoritmler\obj\Debug\net10.0\alqoritmler.genruntimeconfig.cache
+C:\Users\Admin\Desktop\alqoritmler\obj\Debug\net10.0\ref\alqoritmler.dll
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\C#\alqoritmler\bin\Debug\net10.0\alqoritmler.exe
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\C#\alqoritmler\bin\Debug\net10.0\alqoritmler.deps.json
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\C#\alqoritmler\bin\Debug\net10.0\alqoritmler.runtimeconfig.json
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\C#\alqoritmler\bin\Debug\net10.0\alqoritmler.dll
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\C#\alqoritmler\bin\Debug\net10.0\alqoritmler.pdb
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\C#\alqoritmler\obj\Debug\net10.0\alqoritmler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\C#\alqoritmler\obj\Debug\net10.0\alqoritmler.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\C#\alqoritmler\obj\Debug\net10.0\alqoritmler.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\C#\alqoritmler\obj\Debug\net10.0\alqoritmler.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\C#\alqoritmler\obj\Debug\net10.0\alqoritmler.sourcelink.json
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\C#\alqoritmler\obj\Debug\net10.0\alqoritmler.dll
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\C#\alqoritmler\obj\Debug\net10.0\refint\alqoritmler.dll
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\C#\alqoritmler\obj\Debug\net10.0\alqoritmler.pdb
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\C#\alqoritmler\obj\Debug\net10.0\alqoritmler.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Fuad Ismayil\Projects\C#\alqoritmler\obj\Debug\net10.0\ref\alqoritmler.dll
