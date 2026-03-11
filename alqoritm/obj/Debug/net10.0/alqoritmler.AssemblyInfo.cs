@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("alqoritmler")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4446cb4725ad393049895ca71caca0d20278a30")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f836075db941f85d98fb8316444792d100514b06")]
 [assembly: System.Reflection.AssemblyProductAttribute("alqoritmler")]
 [assembly: System.Reflection.AssemblyTitleAttribute("alqoritmler")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

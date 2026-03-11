@@ -124,27 +124,28 @@
 //}
 
 //30
-int[] numbers = [10, 12, 22, 10, 32, 22, 16, 32, 22, 10, 11, 23, 32, 10, 10, 23, 23, 15];
-int uniqueCount = 0;
-for (int i = 0; i < numbers.Length; i++)
-{
-    int selectedNumber = numbers[i];
-    bool isDublicate = false;
-    for (int d = 0; d < i; d++)
-    {
-        if (selectedNumber == numbers[d])
-        {
-            isDublicate = true;
-            Console.WriteLine("dublikat var");
-            break;
-        }
-    }
-    if (isDublicate == false)
-    {
-        uniqueCount++;
-    }
-}
-Console.WriteLine("Fərqli ədədlərin sayı: " + uniqueCount);
+//using System.Diagnostics;
+
+//int[] numbers = [10, 12, 22, 10, 32, 22, 16, 32, 22, 10, 11, 23, 32, 10, 10, 23, 23, 15];
+//int uniqueCount = 0;
+//for (int i = 0; i < numbers.Length; i++)
+//{
+//    int selectedNumber = numbers[i];
+//    bool isDublicate = false;
+//    for (int d = 0; d < i; d++)
+//    {
+//        if (selectedNumber == numbers[d])
+//        {
+//            isDublicate = true;
+//            break;
+//        }
+//    }
+//    if (isDublicate == false)
+//    {
+//        uniqueCount++;
+//    }
+//}
+//Console.WriteLine("Fərqli ədədlərin sayı: " + uniqueCount);
 
 //31
 

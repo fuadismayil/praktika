@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Fuad Ismayil\\Projects\\C#\\alqoritmler\\alqoritmler.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Fuad Ismayil\\praktika\\alqoritm\\alqoritmler.csproj",
       "projectName": "alqoritmler",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\Fuad Ismayil\\Projects\\C#\\alqoritmler\\alqoritmler.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\Fuad Ismayil\\praktika\\alqoritm\\alqoritmler.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\Fuad Ismayil\\Projects\\C#\\alqoritmler\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\Fuad Ismayil\\praktika\\alqoritm\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

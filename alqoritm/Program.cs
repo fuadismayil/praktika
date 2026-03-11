@@ -39,7 +39,7 @@
 //}
 //else { Console.WriteLine("child"); }
 
-//// 5) konsoldan daxil edilen ededin menfi mujsbet olmasinin yoxlanmasi
+//// 5) konsoldan daxil edilen ededin menfi musbet olmasinin yoxlanmasi
 //int importedNumber = Convert.ToInt32(Console.ReadLine());
 //if (importedNumber > 0)
 //{
