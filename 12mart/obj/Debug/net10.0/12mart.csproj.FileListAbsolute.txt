@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\12mart\bin\Debug\net10.0\12mart.exe
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\12mart\bin\Debug\net10.0\12mart.deps.json
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\12mart\bin\Debug\net10.0\12mart.runtimeconfig.json
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\12mart\bin\Debug\net10.0\12mart.dll
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\12mart\bin\Debug\net10.0\12mart.pdb
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\12mart\obj\Debug\net10.0\12mart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\12mart\obj\Debug\net10.0\12mart.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\12mart\obj\Debug\net10.0\12mart.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\12mart\obj\Debug\net10.0\12mart.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\12mart\obj\Debug\net10.0\12mart.sourcelink.json
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\12mart\obj\Debug\net10.0\12mart.dll
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\12mart\obj\Debug\net10.0\refint\12mart.dll
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\12mart\obj\Debug\net10.0\12mart.pdb
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\12mart\obj\Debug\net10.0\12mart.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Fuad Ismayil\praktika\12mart\obj\Debug\net10.0\ref\12mart.dll
