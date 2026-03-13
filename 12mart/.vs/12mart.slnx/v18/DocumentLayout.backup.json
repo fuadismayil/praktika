@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Fuad Ismayil\\praktika\\12mart\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2454F6C-C95B-4E60-9E62-8B1F56003D0D}|12mart.csproj|c:\\users\\admin\\desktop\\fuad ismayil\\praktika\\12mart\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2454F6C-C95B-4E60-9E62-8B1F56003D0D}|12mart.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97BB2681-A063-39C5-8142-A491C5DAFB61}|12mart.csproj|c:\\users\\admin\\desktop\\fuad ismayil\\praktika\\12mart\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97BB2681-A063-39C5-8142-A491C5DAFB61}|12mart.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,9 +22,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Fuad Ismayil\\praktika\\12mart\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Fuad Ismayil\\praktika\\12mart\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAABsAAAAAAAAAAAAswEUAAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Fuad Ismayil\\praktika\\12mart\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwEUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-12T04:27:30.744Z",
               "EditorCaption": ""

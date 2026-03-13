@@ -1,0 +1,4 @@
+1- Input/Output
+2- Step aydın olmalı, ambigious(qeyri-müəyyənlik) olmamalı.
+3- Ardıcıl-Clean
+4- Hədəfə max yaxın.
