@@ -1,0 +1,401 @@
+﻿@model DashboardVM
+
+@{
+    ViewData["Title"] = "Dashboard";
+
+    int totalCars = Model.Cars.Count;
+    int totalViolations = Model.Violations.Count;
+    int totalFines = Model.Fines.Count;
+    decimal totalAmount = Model.Fines.Sum(f => f.Amount);
+}
+
+<div class="container py-5">
+
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-4 gap-3">
+        <div>
+            <h1 class="fw-bold mb-1">Dashboard</h1>
+            <p class="text-muted mb-0">
+                Cars, violations and fines are managed from this page.
+            </p>
+        </div>
+
+        <div class="d-flex gap-2 flex-wrap">
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#carModal">
+                Add Car
+            </button>
+
+            <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#violationModal">
+                Add Violation
+            </button>
+
+            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#fineModal">
+                Add Fine
+            </button>
+        </div>
+    </div>
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger shadow-sm">
+            @TempData["Error"]
+        </div>
+    }
+
+    <div class="row g-4 mb-5">
+
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                    <p class="text-muted mb-1">Total Cars</p>
+                    <h2 class="fw-bold mb-0">@totalCars</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                    <p class="text-muted mb-1">Total Violations</p>
+                    <h2 class="fw-bold mb-0">@totalViolations</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                    <p class="text-muted mb-1">Total Fines</p>
+                    <h2 class="fw-bold mb-0">@totalFines</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                    <p class="text-muted mb-1">Total Amount</p>
+                    <h2 class="fw-bold mb-0">@totalAmount AZN</h2>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="card border-0 shadow-sm mb-5">
+        <div class="card-header bg-white py-3">
+            <h4 class="mb-0 fw-semibold">Cars</h4>
+        </div>
+
+        <div class="card-body p-0">
+            @if (Model.Cars.Count == 0)
+            {
+                <div class="p-4 text-muted">
+                    No cars added yet.
+                </div>
+            }
+            else
+            {
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Id</th>
+                                <th>Model</th>
+                                <th>Year</th>
+                                <th>Owner</th>
+                                <th>Passenger</th>
+                                <th>Passport</th>
+                                <th>Fuel</th>
+                                <th>Point</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @foreach (var car in Model.Cars)
+                            {
+                                <tr>
+                                    <td>@car.Id</td>
+                                    <td class="fw-semibold">@car.Model</td>
+                                    <td>@car.Year</td>
+                                    <td>@car.OwnerName</td>
+                                    <td>@car.PassengerCount</td>
+                                    <td>@car.Passport</td>
+                                    <td>@car.Fuel</td>
+                                    <td>
+                                        <span class="badge bg-primary">
+                                            @car.Point point
+                                        </span>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="card border-0 shadow-sm mb-5">
+        <div class="card-header bg-white py-3">
+            <h4 class="mb-0 fw-semibold">Violations</h4>
+        </div>
+
+        <div class="card-body p-0">
+            @if (Model.Violations.Count == 0)
+            {
+                <div class="p-4 text-muted">
+                    No violations added yet.
+                </div>
+            }
+            else
+            {
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Id</th>
+                                <th>Reason</th>
+                                <th>Point</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @foreach (var violation in Model.Violations)
+                            {
+                                <tr>
+                                    <td>@violation.Id</td>
+                                    <td class="fw-semibold">@violation.Reason</td>
+                                    <td>
+                                        <span class="badge bg-success">
+                                            @violation.Point point
+                                        </span>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="card border-0 shadow-sm">
+        <div class="card-header bg-white py-3">
+            <h4 class="mb-0 fw-semibold">Fines</h4>
+        </div>
+
+        <div class="card-body p-0">
+            @if (Model.Fines.Count == 0)
+            {
+                <div class="p-4 text-muted">
+                    No fines added yet.
+                </div>
+            }
+            else
+            {
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Id</th>
+                                <th>Car</th>
+                                <th>Owner</th>
+                                <th>Violation</th>
+                                <th>Amount</th>
+                                <th>Date</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @foreach (var fine in Model.Fines)
+                            {
+                                <tr>
+                                    <td>@fine.Id</td>
+                                    <td class="fw-semibold">@fine.Car.Model</td>
+                                    <td>@fine.Car.OwnerName</td>
+                                    <td>@fine.Violation.Reason</td>
+                                    <td>@fine.Amount AZN</td>
+                                    <td>@fine.Date.ToString("dd.MM.yyyy HH:mm")</td>
+                                    <td>
+                                        @if (fine.IsPaid)
+                                        {
+                                            <span class="badge bg-success">Paid</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-warning text-dark">Not Paid</span>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+        </div>
+    </div>
+
+</div>
+
+<div class="modal fade" id="carModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow">
+
+            <form method="post" action="/Car/Create">
+
+                <div class="modal-header">
+                    <h5 class="modal-title fw-semibold">Add New Car</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+
+                    <div class="mb-3">
+                        <label class="form-label">Model</label>
+                        <input type="text" name="Model" class="form-control" placeholder="Mercedes E Class" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Year</label>
+                        <input type="number" name="Year" class="form-control" placeholder="2022" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Owner Name</label>
+                        <input type="text" name="OwnerName" class="form-control" placeholder="Fuad Ismayil" required />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Passenger Count</label>
+                        <input type="number" name="PassengerCount" class="form-control" placeholder="5" required />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Passport</label>
+                        <input type="text" name="Passport" class="form-control" placeholder="AZE12345678" required />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Fuel</label>
+                        <input type="text" name="Fuel" class="form-control" placeholder="Petrol / Diesel / Hybrid" required />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                    <button type="submit" class="btn btn-primary">
+                        Create Car
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="violationModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow">
+            <form method="post" action="/Violation/Create">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-semibold">Add New Violation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label class="form-label">Reason</label>
+                        <input type="text" name="Reason" class="form-control" placeholder="Speed limit exceeded" required />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Point</label>
+                        <input type="number" name="Point" class="form-control" placeholder="3" required />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                    <button type="submit" class="btn btn-success">
+                        Create Violation
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Add Fine Modal -->
+<div class="modal fade" id="fineModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow">
+
+            <form method="post" action="/Fine/Create">
+
+                <div class="modal-header">
+                    <h5 class="modal-title fw-semibold">Add New Fine</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+
+                    @if (Model.Cars.Count == 0 || Model.Violations.Count == 0)
+                    {
+                        <div class="alert alert-warning">
+                            Fine yaratmaq ucun evvel Car ve Violation elave edin.
+                        </div>
+                    }
+
+                    <div class="mb-3">
+                        <label class="form-label">Car</label>
+                        <select name="CarId" class="form-select" required>
+                            <option value="">Select car</option>
+
+                            @foreach (var car in Model.Cars)
+                            {
+                                <option value="@car.Id">
+                                    @car.Model - @car.OwnerName
+                                </option>
+                            }
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Violation</label>
+                        <select name="ViolationId" class="form-select" required>
+                            <option value="">Select violation</option>
+
+                            @foreach (var violation in Model.Violations)
+                            {
+                                <option value="@violation.Id">
+                                    @violation.Reason - @violation.Point point
+                                </option>
+                            }
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Amount</label>
+                        <input type="number" step="0.01" name="Amount" class="form-control" placeholder="100" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Payment Status</label>
+                        <select name="IsPaid" class="form-select" required>
+                            <option value="false">Not Paid</option>
+                            <option value="true">Paid</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">
+                        Close
+                    </button>
+
+                    <button type="submit" class="btn btn-danger">
+                        Create Fine
+                    </button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>
